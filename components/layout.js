@@ -4,8 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = '[Your Name]';
-export const siteTitle = 'Next.js Sample Website';
+const name = 'Yi Wei Chen';
+export const siteTitle = 'Next.js Sample Website123';
 
 export default function Layout({ children, home }) {
   return (
@@ -48,6 +48,7 @@ export default function Layout({ children, home }) {
                 height={108}
                 width={108}
                 alt={name}
+                
               />
             </Link>
             <h2 className={utilStyles.headingLg}>
